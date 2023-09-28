@@ -3,7 +3,7 @@ import "./home.css";
 import Social from './Social';
 import Data from './Data';
 
-const home = () => {
+const Home = () => {
   return (
     <section className="home section" id="home">
       <div className="home__container container grid">
@@ -19,4 +19,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
