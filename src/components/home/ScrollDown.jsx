@@ -18,23 +18,29 @@ const ScrollDown = () => {
                 strokeLinejoin: "round",
                 strokeMiterlimit: "1.5",
             }}>
-            <path d="M5 9C5 5.13401 8.13401 2 12 2C15.866 2 
+            <path 
+                id="mouse" 
+                d="M5 9C5 5.13401 8.13401 2 12 2C15.866 2 
                 19 5.13401 19 9V15C19 18.866 15.866 22 12 22C8.13401 
                 22 5 18.866 5 15V9Z" 
                 style={{
                     fill: "none",
-                    stroke: "#000",
+                    stroke: "var(--title-color)",
                     strokeWidth: "1.5",
                 }}
             />
-            <path d="M12 5V8" 
-            style={{
-                fill: "none",
-                stroke: "#000",
-                strokeWidth: "1.5",
-            }}
+            <path 
+                class="wheel"
+                d="M12 5V8" 
+                style={{
+                    fill: "none",
+                    stroke: "var(--title-color)",
+                    strokeWidth: "1.5",
+                }}
             />
         </svg>
+        <span className="home__scroll-name">Scroll Down</span>
+        <i class="uil uil-arrow-down home__scroll-arrow"></i>
         </a>
     </div>
 
