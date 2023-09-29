@@ -7,7 +7,7 @@ const Data = () => {
             <svg 
                 width="24px" 
                 height="36px" 
-                viewBox="14 0 100 80" 
+                viewBox="14 22 100 80" 
                 fill="none" 
                 xmlns="http://www.w3.org/2000/svg" 
                 class="home__hand">
@@ -83,7 +83,7 @@ const Data = () => {
             </svg>
         </h1>
         <h3 className="home__subtitle">Full Stack Software Developer</h3>
-        <p className="home__desc">
+        <p className="home__description">
             I'm a software engineer etc....
         </p>
         <a href="#contact" className="button button--flex">
