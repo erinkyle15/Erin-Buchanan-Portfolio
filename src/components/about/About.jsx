@@ -17,7 +17,10 @@ const About = () => {
             <Info />
 
             <p className="about__description">
-              Full stack software engineer. Experience etc...
+              Full-stack software engineer since June 2022. With a background in speech and language therapy, 
+              I pursued a master's degree in software development. I'm passionate about backend and 
+              full-stack development, always striving to innovate and solve problems creatively. 
+              My ultimate goal is to create software that positively impacts people's lives.
             </p>
 
             <a download="" href={CV} className="button button--flex">

@@ -84,7 +84,9 @@ const Data = () => {
         </h1>
         <h3 className="home__subtitle">Full Stack Software Developer</h3>
         <p className="home__description">
-            I'm a software engineer etc....
+        I'm a software enthusiast with over one year of hands-on coding experience under my belt. 
+        I may be relatively new to the game, but I've been diving headfirst into the world of software, 
+        taking on exciting challenges, and learning every step of the way.
         </p>
         <a href="#contact" className="button button--flex">
             Say Hello
