@@ -26,22 +26,23 @@ const Frontend = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i class='bx bxl-react'></i>
-                    
-                    <div>
-                        <h3 className="skills__name">React</h3>
-                        <span className="skills__level">Intermediate</span>
-                    </div>
-                </div>
-            </div>
-
-            <div className="skills__group">
-                <div className="skills__data">
                     <i class='bx bxl-vuejs'></i>
                     
                     <div>
                         <h3 className="skills__name">Vue</h3>
                         <span className="skills__level">Basic</span>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div className="skills__group">
+                <div className="skills__data">
+                    <i class='bx bxl-react'></i>
+                    
+                    <div>
+                        <h3 className="skills__name">React</h3>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
 
@@ -55,10 +56,10 @@ const Frontend = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i class='bx bxl-bootstrap'></i>
+                    <i class='bx bxl-angular'></i>
                     
                     <div>
-                        <h3 className="skills__name">Bootstrap</h3>
+                        <h3 className="skills__name">AngularJS</h3>
                         <span className="skills__level">Basic</span>
                     </div>
                 </div>
